@@ -21,6 +21,12 @@ jobs:
       - name: Build
         run: hugo --gc --minify --cleanDestinationDir
 
+       # 创建 CNAME，这个是原始配置中没有的
+      - uses: "finnp/create-file-action@master"
+        env:
+          FILE_NAME: "./public/CNAME"
+          FILE_DATA: "mademyday.im"
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
