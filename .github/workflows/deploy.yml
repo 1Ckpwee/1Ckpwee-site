@@ -24,7 +24,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
           external_repository: 1Ckpwee/1Ckpwee.github.io
           publish_branch: master
           publish_dir: ./public
