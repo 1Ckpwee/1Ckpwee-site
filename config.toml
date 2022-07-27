@@ -17,7 +17,7 @@ googleAnalytics = ""
 avatar = "https://git.poker/1Ckeepw/images/blob/main/20220720/1151658317024_.4sys4t798iw0.webp?raw=true"
 mode = "light"
 featherIconsCDN = true
-subtitle = "Anti-Pattern"
+subtitle = "Swim in the edge of the map"
 excludedTypes = ["page", "pages"]
 
 [[params.social]]
