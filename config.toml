@@ -14,7 +14,7 @@ paginate = 10 # articles per page
 googleAnalytics = ""
 
 [params]
-avatar = "https://git.poker/1Ckeepw/images/blob/main/20220720/1151658317024_.4sys4t798iw0.webp?raw=true"
+avatar = "https://cdn.jsdelivr.net/gh/1Ckpwee/images@master/blogE743076B-1061-4534-83A5-7C82E71D4527(20230317-092.JPG"
 mode = "light"
 featherIconsCDN = true
 subtitle = "Swim in the edge of the map"
